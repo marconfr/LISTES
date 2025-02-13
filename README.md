@@ -19,12 +19,12 @@ The byteList class allows you to manage a dynamic list of uint8_t values.
 
 Main Methods:
 
-• insert(uint8_t pos, uint8_t val): Inserts a value at a specified position.
-• drop(uint8_t pos): Removes an element at a given position.
-• size(): Returns the current size of the list.
-• element(uint8_t pos): Returns the element at the given position.
-• isEmpty(): Checks if the list is empty.
-• show(): Displays all elements of the list through the serial port.
+* **insert(uint8_t pos, uint8_t val)**: Inserts a value at a specified position.
+* **drop(uint8_t pos)**: Removes an element at a given position.
+* **size()**: Returns the current size of the list.
+* **element(uint8_t pos)**: Returns the element at the given position.
+* **isEmpty()**: Checks if the list is empty.
+* **show()**: Displays all elements of the list through the serial port.
 
 Example Usage:
 ```cpp
@@ -58,11 +58,12 @@ void loop() {
 The byteStack class implements a stack (LIFO - Last In, First Out).
 
 Main Methods:
-• push(uint8_t val): Pushes a value onto the stack.
-• pop(): Removes the top element from the stack.
-• top(): Returns the top element of the stack.
-• size(): Returns the size of the stack.
-• isEmpty(): Checks if the stack is empty.
+
+* **push(uint8_t val)**: Pushes a value onto the stack.
+* **pop()**: Removes the top element from the stack.
+* **top()**: Returns the top element of the stack.
+* **size()**: Returns the size of the stack.
+* **isEmpty()**: Checks if the stack is empty.
 
 Example Usage:
 
@@ -98,11 +99,12 @@ void loop() {
 The byteQueue class implements a queue (FIFO - First In, First Out).
 
 Main Methods:
-• enqueue(uint8_t val): Adds a value to the end of the queue.
-• dequeue(): Removes the element from the front of the queue.
-• front(): Returns the element at the front of the queue.
-• size(): Returns the size of the queue.
-• isEmpty(): Checks if the queue is empty.
+
+* **enqueue(uint8_t val)**: Adds a value to the end of the queue.
+* **dequeue()**: Removes the element from the front of the queue.
+* **front()**: Returns the element at the front of the queue.
+* **size()**: Returns the size of the queue.
+* **isEmpty()**: Checks if the queue is empty.
 
 Example Usage:
 
